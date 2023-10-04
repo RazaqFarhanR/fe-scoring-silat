@@ -1,8 +1,8 @@
 import AdminLayout from '@/components/Mixins/AdminLayout'
 import React, { ReactElement } from 'react'
 import ButtonSetting from '@/components/Common/ButtonSetting'
-import EventIcon from '@/../public/Event.png'
-import GelanggangIcon from '@/../public/Gelanggang.png'
+import EventIcon from '@/../public/img/Event.png'
+import GelanggangIcon from '@/../public/img/Gelanggang.png'
 
 const AdminSetting = () => {
   return (
