@@ -15,16 +15,16 @@ const gelanggang = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 gap-4 my-10'>
-                <div className="flex flex-col justify-center items-center border-2 border-[#222954] py-4 rounded-xl space-y-2 mb-3">
-                    <h1 className='text-2xl font-montserrat font-bold text-[#222954]'>Gelanggang I</h1>
-                    <p className='text-xl font-montserrat text-[#222954] uppercase'>(TANDING)</p>
-                    <button type='button' onClick={() => router.push('/dewan/tanding/I/')} className='text-white font-medium bg-[#39ac39] hover:bg-[#2f912f] w-40 rounded-xl py-2 text-center'>Detail</button>
+            <div className='grid grid-cols-2 gap-8 my-8'>
+                <div className="flex flex-col justify-center items-center border-2 border-[#222954] py-6 rounded-xl space-y-2 mb-3">
+                    <h1 className='lg:text-7xl md:text-3xl font-montserrat font-bold text-[#222954] uppercase'>Gelanggang I</h1>
+                    <p className='lg:text-3xl md:text-xl font-montserrat text-[#222954] uppercase'>(TANDING)</p>
+                    <button type='button' onClick={() => router.push('/dewan/tanding/I/')} className='lg:text-3xl md:text-xl uppercase text-white font-medium bg-[#39ac39] hover:bg-[#2f912f] w-[85%] rounded-xl py-2 text-center'>Detail</button>
                 </div>
                 <div className="flex flex-col justify-center items-center border-2 border-[#222954] py-4 rounded-xl space-y-2 mb-3">
-                    <h1 className='text-2xl font-montserrat font-bold text-[#222954]'>Gelanggang II</h1>
-                    <p className='text-xl font-montserrat text-[#222954] uppercase'>(SENI)</p>
-                    <button type='button' onClick={() => router.push('/dewan/seni/II/')} className='text-white font-medium bg-[#39ac39] hover:bg-[#2f912f] w-40 rounded-xl py-2 text-center'>Detail</button>
+                    <h1 className='lg:text-7xl md:text-3xl  font-montserrat font-bold text-[#222954] uppercase'>Gelanggang II</h1>
+                    <p className='lg:text-3xl md:text-xl font-montserrat text-[#222954] uppercase'>(SENI)</p>
+                    <button type='button' onClick={() => router.push('/dewan/seni/II/')} className='text-3xl md:text-xl uppercase text-white font-medium bg-[#39ac39] hover:bg-[#2f912f] w-[85%] rounded-xl py-2 text-center'>Detail</button>
                 </div>
             </div>
         </div>

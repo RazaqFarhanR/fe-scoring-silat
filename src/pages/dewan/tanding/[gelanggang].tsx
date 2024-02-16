@@ -29,7 +29,7 @@ const Gelanggang = () => {
                                 <td className='border-2 border-[#C9C9C9] text-blue-600 py-3'>Nama Biru <br /> Kontingen Biru</td>
                                 <td className='border-2 border-[#C9C9C9] text-red-600 py-3'>Nama Merah <br /> Kontingen Merah</td>
                                 <td className='border-2 border-[#C9C9C9] text-[#222954]'>
-                                    <button className='bg-[#39ac39] hover:bg-[#2f912f] py-1.5 w-[80%] rounded-lg text-white uppercase text-base'>Dewan</button>
+                                    <button className='bg-[#39ac39] hover:bg-[#2f912f] py-1.5 w-[80%] rounded-lg text-white uppercase text-base' onClick={() => router.push('/dewan/tanding/penilaian')}>Dewan</button>
                                 </td>
                             </tr>
                         </tbody>
