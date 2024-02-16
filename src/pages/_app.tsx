@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
   <>
     <Head>
       <title>KAYPANG SILAT SPORT</title>
-      <link rel="shortcut icon" type="image/png" href="/img/kaypang.png" />
+      {/* <link rel="shortcut icon" type="image/png" href="/img/kaypang.png" /> */}
     </Head>
     <Component {...pageProps} />
   </>
